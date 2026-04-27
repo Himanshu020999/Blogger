@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import About from './About'
 import Contact from './Contact'
 import Home from './Home'
-import Card from '../components/card'
+import Card from '../components/Card'
 import Bloghomepage from './Bloghomepage'
 import Blogpostpage from './Blogpostpage'
 
