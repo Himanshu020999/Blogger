@@ -10,6 +10,7 @@ import images7 from "./images/images7.jpg"
 import images8 from "./images/images8.jpg"
 import images9 from "./images/images9.jpg"
 import images10 from "./images/images10.jpg"
+import Navbar from './Navbar'
 
 
 
@@ -44,12 +45,18 @@ function Blogpostpage() {
 
     
   return (
+    <>
+
+    <Navbar/>
+    
     <div className='blogpost'>
 
         <h1>{blogpost.title}</h1>
         <p>{blogpost.paragraph}</p>
-        <img src={blogpost.imageURL} />
+        <img className='main-image' src={blogpost.imageURL} />
+
     </div>
+    </>
   )
 }
 
